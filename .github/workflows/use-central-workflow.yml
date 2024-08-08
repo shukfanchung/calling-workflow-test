@@ -1,0 +1,12 @@
+# .github/workflows/use-central-workflow.yml
+name: Use Central Workflow
+on:
+  push:
+    branches:
+      - main
+jobs:
+  call-central-workflow:
+    # add @main to use the version of the workflow defined in the main branch 
+    uses: shukfanchung/central-workflow-test/.github/workflows/central-workflow.yml@main
+    with:
+      example_input: 'Hello From Caller Action'
