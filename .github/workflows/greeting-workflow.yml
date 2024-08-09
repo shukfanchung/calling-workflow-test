@@ -11,9 +11,9 @@ jobs:
         uses: actions/checkout@v3
 
       - name: List action directory
-        run: ls -la .github/actions
+        run: ls -la .github/actions/greet-action
   
-      - name: Run greeting script
+      - name: Run greeting script/greet-action
         uses: ./.github/actions
         with:
           name: World
