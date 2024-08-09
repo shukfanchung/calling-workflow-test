@@ -1,7 +1,15 @@
-### calling-workflow-test
+### Actions workflow testing
 
-A repo of workflows that target workflows in the central-workflow-test repo.
-This is used for training. 
+I created this repo to help me know how GitHub action works
 
+#### Javascript Action Workflow
 
-## simulating a push
+- **Name**: `greeting-workflow.yml`
+
+- **Trigger**: The workflow is triggered by a push event to the repository.
+
+- **Job**: The job named `greet` runs on an `ubuntu-latest` virtual machine.
+
+- **Steps**:
+  - **Checkout code**: Uses the `actions/checkout` action to check out the repository’s code so that subsequent steps can access it.
+  - **Run Greeting Action**: Runs a custom 
