@@ -1,0 +1,16 @@
+name: "Greeting Action"
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run greeting script
+        uses: ./actions/javascript-actions/
+        with:
+          name: World
