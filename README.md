@@ -1,6 +1,6 @@
 ### Actions workflow testing
 
-I created this repo to help me know how GitHub action works
+I created this repo to help me learn how GitHub action works
 
 #### Javascript Action Workflow
 
