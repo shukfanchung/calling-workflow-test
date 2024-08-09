@@ -1,0 +1,10 @@
+name: 'Greeting Action'
+description: 'A simple action that greets the user.'
+inputs:
+  name:
+    description: 'Name to greet'
+    required: true
+    default: 'World'
+runs:
+  using: 'node12'
+  main: 'index.js'
