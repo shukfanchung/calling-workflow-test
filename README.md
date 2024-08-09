@@ -12,4 +12,4 @@ I created this repo to help me learn how GitHub action works
 
 - **Steps**:
   - **Checkout code**: Uses the `actions/checkout` action to check out the repository’s code so that subsequent steps can access it.
-  - **Run Greeting Action**: Runs a custom 
+  - **Run Greeting Action**: Runs a custom action defined in `.github/actions/greet-action`, passing `World` as an input parameter to the action.
