@@ -14,7 +14,7 @@ jobs:
         run: ls -la .github/actions/greet-action
   
       - name: Run greeting script/greet-action
-        uses: ./.github/actions
+        uses: ./.github/actions/greet-action
         with:
           name: World
 
