@@ -1,10 +1,11 @@
-name: 'Greeting Action'
-description: 'A simple action that greets the user.'
+name: "Greeting Action"
+description: "A simple action that greets the user."
 inputs:
   name:
-    description: 'Name to greet'
+    description: "Name to greet"
     required: true
-    default: 'World'
+    default: "World"
 runs:
-  using: 'node16'
-  main: 'index.js'
+  using: "node16"
+  main: "index.js"
+
