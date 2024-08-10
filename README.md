@@ -2,8 +2,7 @@
 
 I created this repo to help me learn how GitHub action works
 
-#### Javascript action workflow
-
+#### Javascript Action
 - **Name**: `.github/workflows/greeting-workflow.yml`
 - **Trigger**: The workflow is triggered by a push event to the repository.
 - **Job**: The job named `greet` runs on an `ubuntu-latest` virtual machine.
